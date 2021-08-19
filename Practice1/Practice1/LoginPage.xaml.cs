@@ -10,12 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Practice1
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Login : ContentPage
+    public partial class LoginPage : ContentPage
     {
-        public Login()
+        public LoginPage()
         {
             InitializeComponent();
-    
         }
 
         async private void OnButtonClicked(object sender, EventArgs e)

@@ -10,7 +10,7 @@ namespace Practice1
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()
