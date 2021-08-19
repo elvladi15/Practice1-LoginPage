@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practice1.Login"
+             BackgroundColor="#fff">
+    <StackLayout VerticalOptions="Center">
+        <Image Source="dog" WidthRequest="120" Margin="0,0,0,70"/>
+        <Label Text="Please enter your username" FontSize="Medium"/>
+        <Entry Placeholder="Username" FontSize="Medium" x:Name="username"/>
+        <Label Text="Please enter your password" FontSize="Medium"/>
+        <Entry Placeholder="Password" IsPassword="True" x:Name="password"/>
+        <Button Text="Login" BackgroundColor="#003DCB" TextColor="#FFF" WidthRequest="50" Clicked="OnButtonClicked"/>
+        <Label Text="Forgot your password?" Margin="0,40,0,0" HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>
